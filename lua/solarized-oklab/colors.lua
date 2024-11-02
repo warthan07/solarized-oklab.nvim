@@ -2,7 +2,6 @@ local util = require("solarized-oklab.util")
 
 local M = {}
 
----@class Palette
 M.default = require("solarized-oklab.default_palette")
 
 ---@return ColorScheme
@@ -10,16 +9,9 @@ function M.setup(opts)
   opts = opts or {}
   local config = require("solarized-oklab.config")
 
-  -- local style = config.is_day() and config.options.light_style or config.options.style
-  local style = "default"
-  local palette = M[style] or {}
-  if type(palette) == "function" then
-    palette = palette()
-  end
-
   -- Color Palette
   ---@class ColorScheme: Palette
-  local colors = vim.tbl_deep_extend("force", vim.deepcopy(M.default), palette)
+  local colors = M.default
 
   util.bg = colors.bg
   util.day_brightness = config.options.day_brightness
