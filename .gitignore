@@ -6,3 +6,5 @@ debug
 foo.*
 *.log
 data
+.ipynb_checkpoints
+**/Session.vim

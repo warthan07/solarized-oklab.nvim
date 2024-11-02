@@ -4,17 +4,17 @@ local config = require("solarized-oklab.config").options
 local solarized_oklab = {}
 
 solarized_oklab.normal = {
-  a = { bg = colors.blue, fg = colors.black },
-  b = { bg = colors.base0, fg = colors.base04 },
+  a = { bg = colors.green, fg = colors.black },
+  b = { bg = colors.base02, fg = colors.base0 },
   c = { bg = colors.bg_statusline, fg = colors.fg },
 }
 
 solarized_oklab.insert = {
-  a = { bg = colors.green, fg = colors.black },
+  a = { bg = colors.orange, fg = colors.black },
 }
 
 solarized_oklab.command = {
-  a = { bg = colors.yellow, fg = colors.black },
+  a = { bg = colors.blue, fg = colors.black },
 }
 
 solarized_oklab.visual = {
@@ -26,12 +26,12 @@ solarized_oklab.replace = {
 }
 
 solarized_oklab.terminal = {
-  a = { bg = colors.green, fg = colors.black },
+  a = { bg = colors.blue, fg = colors.black },
 }
 
 solarized_oklab.inactive = {
-  a = { bg = colors.bg_statusline, fg = colors.blue },
-  b = { bg = colors.bg_statusline, fg = colors.fg, gui = "bold" },
+  a = { bg = colors.base02, fg = colors.base0 },
+  b = { bg = colors.bg_statusline, fg = colors.fg },
   c = { bg = colors.bg_statusline, fg = colors.fg },
 }
 
