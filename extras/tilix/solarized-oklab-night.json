@@ -2,25 +2,25 @@
     "name": "Solarized OKLab",
     "comment": "",
     "use-theme-colors": false,
-    "foreground-color": "#7b7b7b",
+    "foreground-color": "#797b7f",
     "background-color": "#0e151f",
     "palette": [
-        "#3d4551",
+        "#424448",
         "#de3b3d",
         "#6d8d22",
         "#9e7a21",
         "#2483d6",
         "#c841a4",
         "#279382",
-        "#a09788",
-        "#a09788",
+        "#96989d",
+        "#96989d",
         "#f56c66",
         "#8eaa57",
         "#b99956",
         "#5aa3eb",
         "#e16ebf",
         "#5eafa0",
-        "#bfb5a6"
+        "#b4b7bb"
     ]
 }
   

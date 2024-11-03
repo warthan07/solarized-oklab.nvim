@@ -1,6 +1,6 @@
 module.exports =  {
   plain: {
-    color: "#7b7b7b",
+    color: "#797b7f",
     backgroundColor: "#0e151f",
   },
   styles: [
@@ -55,13 +55,13 @@ module.exports =  {
     {
       types: ["variable"],
       style: {
-        color: "#7b7b7b",
+        color: "#797b7f",
       },
     },
     {
       types: ["comment"],
       style: {
-        color: "#3d4551",
+        color: "#424448",
         fontStyle: "italic",
       },
     },

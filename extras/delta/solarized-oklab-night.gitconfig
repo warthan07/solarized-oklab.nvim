@@ -9,4 +9,4 @@
   plus-emph-style               = syntax "#495d1b"
   plus-empty-line-marker-style  = syntax "#6d8d22"
   line-numbers-plus-style       = "#495d1b"
-  line-numbers-zero-style       = "#3d4551"
+  line-numbers-zero-style       = "#424448"

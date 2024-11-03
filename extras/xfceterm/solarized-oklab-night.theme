@@ -1,9 +1,9 @@
 [Scheme]
 Name=Solarized OKLab
 ColorBackground=#0e151f
-ColorForeground=#7b7b7b
+ColorForeground=#797b7f
 
 ColorSelectionBackground=#242c37
-ColorSelection=#bfb5a6
+ColorSelection=#b4b7bb
 
-ColorPalette=#3d4551;#de3b3d;#6d8d22;#9e7a21;#2483d6;#c841a4;#279382;#a09788;#a09788;#f56c66;#8eaa57;#b99956;#5aa3eb;#e16ebf;#5eafa0;#bfb5a6
+ColorPalette=#424448;#de3b3d;#6d8d22;#9e7a21;#2483d6;#c841a4;#279382;#96989d;#96989d;#f56c66;#8eaa57;#b99956;#5aa3eb;#e16ebf;#5eafa0;#b4b7bb
