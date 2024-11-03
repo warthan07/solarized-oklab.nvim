@@ -14,38 +14,35 @@ function M.generate(colors)
   local alacritty = util.template(
     [[
 # ${_style_name} colors for Alacritty
-colors:
-  # Default colors
-  primary:
-    background: '${bg}'
-    foreground: '${fg}'
 
-  # Normal colors
-  normal:
-    black:   '${terminal_black}'
-    red:     '${red}'
-    green:   '${green}'
-    yellow:  '${yellow}'
-    blue:    '${blue}'
-    magenta: '${magenta}'
-    cyan:    '${cyan}'
-    white:   '${terminal_white}'
+[colors.primary]
+background = "${bg}"
+foreground = "${fg}"
 
-  # Bright colors
-  bright:
-    black:   '${terminal_black_hl}'
-    red:     '${red300}'
-    green:   '${green300}'
-    yellow:  '${yellow300}'
-    blue:    '${blue300}'
-    magenta: '${magenta300}'
-    cyan:    '${cyan300}'
-    white:   '${terminal_white_hl}'
+[colors.normal]
+black   = "${terminal_black}"
+red     = "${red}"
+green   = "${green}"
+yellow  = "${yellow}"
+blue    = "${blue}"
+magenta = "${magenta}"
+cyan    = "${cyan}"
+white   = "${terminal_white}"
 
-  indexed_colors:
-    - { index: 16, color: '${orange}' }
-    - { index: 17, color: '${red}' }
-    
+[colors.bright]
+black   = "${terminal_black_hl}"
+red     = "${red300}"
+green   = "${green300}"
+yellow  = "${yellow300}"
+blue    = "${blue300}"
+magenta = "${magenta300}"
+cyan    = "${cyan300}"
+white   = "${terminal_white_hl}"
+
+[colors]
+indexed-colors = [
+    { index = 16, color = "${orange}" },
+    { index = 17, color = "${red}" }]
   ]],
     alacrittyColors
   )
