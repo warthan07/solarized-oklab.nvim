@@ -25,25 +25,25 @@ function M.generate(colors)
     [[
 (
   selected_tab: ${magenta}
-  command_fg: ${comment}
-  selection_bg: ${bg_highlight}
-  selection_fg: ${cyan}
+  command_fg: ${base01}
+  selection_bg: ${base00}
+  selection_fg: ${black}
   cmdbar_bg: ${bg}
   cmdbar_extra_lines_bg: ${bg}
-  disabled_fg: ${comment}
+  disabled_fg: ${base01}
   diff_line_add: ${green}
   diff_line_delete: ${red}
-  diff_file_added: ${green1}
-  diff_file_removed: ${red1}
-  diff_file_moved: ${magenta2}
-  diff_file_modified: ${yellow}
+  diff_file_added: ${green700}
+  diff_file_removed: ${red700}
+  diff_file_moved: ${magenta700}
+  diff_file_modified: ${yellow700}
   commit_hash: ${magenta}
-  commit_time: ${teal}
+  commit_time: ${cyan}
   commit_author: ${green}
   danger_fg: ${red}
   push_gauge_bg: ${bg}
   push_gauge_fg: ${fg}
-  tag_fg: ${magenta2}
+  tag_fg: ${magenta300}
   branch_fg: ${yellow}
 )
 ]],

@@ -1,0 +1,25 @@
+    # Solarized OKLab colors
+
+    # Syntax Highlighting Colors
+    fish_color_normal 7b7b7b
+    fish_color_command 279382
+    fish_color_keyword c841a4
+    fish_color_quote 9e7a21
+    fish_color_redirection 7b7b7b
+    fish_color_end c06321
+    fish_color_error de3b3d
+    fish_color_param 8c5ee8
+    fish_color_comment 3d4551
+    fish_color_selection --background=242c37
+    fish_color_search_match --background=242c37
+    fish_color_operator 6d8d22
+    fish_color_escape c841a4
+    fish_color_autosuggestion 3d4551
+
+    # Completion Pager Colors
+    fish_pager_color_progress 3d4551
+    fish_pager_color_prefix 279382
+    fish_pager_color_completion 7b7b7b
+    fish_pager_color_description 3d4551
+    fish_pager_color_selected_background --background=242c37
+  

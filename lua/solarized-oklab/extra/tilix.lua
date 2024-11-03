@@ -13,14 +13,6 @@ function M.generate(colors)
     "foreground-color": "${fg}",
     "background-color": "${bg}",
     "palette": [
-        "${black}",
-        "${red}",
-        "${green}",
-        "${yellow}",
-        "${blue}",
-        "${magenta}",
-        "${cyan}",
-        "${fg_dark}",
         "${terminal_black}",
         "${red}",
         "${green}",
@@ -28,7 +20,15 @@ function M.generate(colors)
         "${blue}",
         "${magenta}",
         "${cyan}",
-        "${fg}"
+        "${terminal_white}",
+        "${terminal_black_hl}",
+        "${red300}",
+        "${green300}",
+        "${yellow300}",
+        "${blue300}",
+        "${magenta300}",
+        "${cyan300}",
+        "${terminal_white_hl}"
     ]
 }
   ]],

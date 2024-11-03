@@ -9,27 +9,31 @@ function M.generate(colors)
 # Add the following object to your Windows Terminal configuration
 # https://learn.microsoft.com/en-us/windows/terminal/customize-settings/color-schemes#creating-your-own-color-scheme
 {
-    "background": "${bg}",
-    "black": "${black}",
-    "blue": "${blue}",
-    "brightBlack": "${terminal_black}",
-    "brightBlue": "${blue}",
-    "brightCyan": "${cyan}",
-    "brightGreen": "${green}",
-    "brightPurple": "${purple}",
-    "brightRed": "${red}",
-    "brightWhite": "${fg}",
-    "brightYellow": "${yellow}",
-    "cursorColor": "${fg}",
-    "cyan": "${cyan}",
-    "foreground": "${fg}",
-    "green": "${green}",
     "name": "${_style_name}",
-    "purple": "${magenta}",
+
+    "background": "${bg}",
+    "foreground": "${fg}",
+
+    "black": "${terminal_black}",
     "red": "${red}",
-    "selectionBackground": "${bg_visual}",
-    "white": "${fg_dark}",
+    "green": "${green}",
     "yellow": "${yellow}"
+    "blue": "${blue}",
+    "purple": "${magenta}",
+    "cyan": "${cyan}",
+    "white": "${terminal_white}",
+
+    "brightBlack": "${terminal_black_hl}",
+    "brightRed": "${red300}",
+    "brightGreen": "${green300}",
+    "brightYellow": "${yellow300}",
+    "brightBlue": "${blue300}",
+    "brightPurple": "${purple300}",
+    "brightCyan": "${cyan300}",
+    "brightWhite": "${terminal_white_hl}",
+
+    "cursorColor": "${fg}",
+    "selectionBackground": "${base02}",
 }
 ]],
     colors

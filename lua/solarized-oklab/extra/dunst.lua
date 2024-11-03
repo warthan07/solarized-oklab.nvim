@@ -6,11 +6,11 @@ local M = {}
 function M.generate(colors)
   local dunst = util.template(
     [[
-# TokyoNight colors for dunst
+# ${_style_name} colors for dunst
 # For more configuraion options see https://github.com/dunst-project/dunst/blob/master/dunstrc
 
 [urgency_low]
-    background = "${bg_dark}"
+    background = "${bg}"
     foreground = "${fg}"
     frame_color = "${fg}"
 
@@ -20,7 +20,7 @@ function M.generate(colors)
     frame_color = "${fg}"
 
 [urgency_critical]
-    background = "${bg_highlight}"
+    background = "${base03}"
     foreground = "${error}"
     frame_color = "${error}"
 ]],

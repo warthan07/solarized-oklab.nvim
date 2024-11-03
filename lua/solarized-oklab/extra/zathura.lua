@@ -6,26 +6,23 @@ local M = {}
 function M.generate(colors)
   local zathura = util.template(
     [[
-# Tokyonight color theme for Zathura
-# Swaps Foreground for Background to get a light version if the user prefers
-#
-# Tokyonight color theme
+# ${_style_name} color theme for Zathura
 #
 set notification-error-bg "${red}"
-set notification-error-fg "${fg}"
+set notification-error-fg "${black}"
 set notification-warning-bg "${yellow}"
-set notification-warning-fg "${terminal_black}"
+set notification-warning-fg "${black}"
 set notification-bg "${bg}"
 set notification-fg "${fg}"
 set completion-bg "${bg}"
-set completion-fg "${fg_dark}"
+set completion-fg "${base00}"
 set completion-group-bg "${bg}"
-set completion-group-fg "${fg_dark}"
-set completion-highlight-bg "${terminal_black}"
+set completion-group-fg "${base00}"
+set completion-highlight-bg "${base02}"
 set completion-highlight-fg "${fg}"
 set index-bg "${bg}"
 set index-fg "${fg}"
-set index-active-bg "${terminal_black}"
+set index-active-bg "${base02}"
 set index-active-fg "${fg}"
 set inputbar-bg "${bg}"
 set inputbar-fg "${fg}"

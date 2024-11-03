@@ -1,77 +1,67 @@
-local util = require("solarized-oklab.util")
-
-local M = {}
-
---- @param colors ColorScheme
-function M.generate(colors)
-  return util.template(M.template, colors)
-end
-
-M.template = [[
 module.exports =  {
   plain: {
-    color: "${fg}",
-    backgroundColor: "${bg}",
+    color: "#7b7b7b",
+    backgroundColor: "#0e151f",
   },
   styles: [
     {
       types: ["prolog", "builtin"],
       style: {
-        color: "${red}",
+        color: "#de3b3d",
       },
     },
     {
       types: ["function"],
       style: {
-        color: "${blue}",
+        color: "#2483d6",
       },
     },
     {
       types: ["symbol"],
       style: {
-        color: "${blue300}",
+        color: "#5aa3eb",
       },
     },
     {
       types: ["punctuation"],
       style: {
-        color: "${magenta}",
+        color: "#c841a4",
       },
     },
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "${green}",
+        color: "#6d8d22",
       },
     },
     {
       types: ["keyword"],
       style: {
-        color: "${violet}",
+        color: "#8c5ee8",
       },
     },
     {
       types: ["operator"],
       style: {
-        color: "${blue100}",
+        color: "#94c2f2",
       },
     },
     {
       types: ["constant", "boolean"],
       style: {
-        color: "${orange}",
+        color: "#c06321",
       },
     },
     {
       types: ["variable"],
       style: {
-        color: "${fg}",
+        color: "#7b7b7b",
       },
     },
     {
       types: ["comment"],
       style: {
-        color: "${base01}",
+        color: "#3d4551",
         fontStyle: "italic",
       },
     },
@@ -83,6 +73,3 @@ module.exports =  {
     },
   ],
 };
-]]
-
-return M

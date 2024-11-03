@@ -1,29 +1,14 @@
-local util = require("solarized-oklab.util")
-
-local M = {}
-
---- @param colors ColorScheme
-function M.generate(colors)
-  local fishColors = {}
-  for k, v in pairs(colors) do
-    if type(v) == "string" then
-      fishColors[k] = v:gsub("^#", "")
-    end
-  end
-
-  local fish = util.template(
-    [[
-    # ${_style_name} Color Palette
-    set -l foreground ${fg}
-    set -l selection ${base02}
-    set -l comment ${base01}
-    set -l red ${red}
-    set -l orange ${orange}
-    set -l yellow ${yellow}
-    set -l green ${green}
-    set -l purple ${violet}
-    set -l cyan ${cyan}
-    set -l pink ${magenta}
+    # Solarized OKLab Color Palette
+    set -l foreground 7b7b7b
+    set -l selection 242c37
+    set -l comment 3d4551
+    set -l red de3b3d
+    set -l orange c06321
+    set -l yellow 9e7a21
+    set -l green 6d8d22
+    set -l purple 8c5ee8
+    set -l cyan 279382
+    set -l pink c841a4
 
     # Syntax Highlighting Colors
     set -g fish_color_normal $foreground
@@ -48,11 +33,4 @@ function M.generate(colors)
     set -g fish_pager_color_description $comment
     set -g fish_pager_color_selected_background --background=$selection
 
-  ]],
-    fishColors
-  )
-
-  return fish
-end
-
-return M
+  

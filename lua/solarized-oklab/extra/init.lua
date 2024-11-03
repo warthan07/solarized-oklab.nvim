@@ -29,7 +29,7 @@ M.extras = {
 local function write(str, fileName)
   print("[write] extra/" .. fileName)
   vim.fn.mkdir(vim.fs.dirname("extras/" .. fileName), "p")
-  local file = io.open("extras/" .. fileName, "w")
+  local file = assert(io.open("extras/" .. fileName, "w"))
   file:write(str)
   file:close()
 end
@@ -71,21 +71,19 @@ function M.setup()
 
   -- map of style to style name
   local styles = {
-    storm = " Storm",
     night = "",
-    day = " Day",
-    moon = " Moon",
+    -- day = " Day",
   }
 
   for extra, info in pairs(M.extras) do
     package.loaded["solarized-oklab.extra." .. extra] = nil
     local plugin = require("solarized-oklab.extra." .. extra)
     for style, style_name in pairs(styles) do
-      config.setup({ style = style })
+      config.setup({ day = (style=="day") })
       local colors = require("solarized-oklab.colors").setup({ transform = true })
-      local fname = extra .. "/tokyonight_" .. style .. "." .. info.ext
-      colors["_upstream_url"] = "https://github.com/folke/tokyonight.nvim/raw/main/extras/" .. fname
-      colors["_style_name"] = "Tokyo Night" .. style_name
+      local fname = extra .. "/solarized-oklab-" .. style .. "." .. info.ext
+      colors["_upstream_url"] = "https://github.com/warthan07/solarized-oklab.nvim/raw/main/extras/" .. fname
+      colors["_style_name"] = "Solarized OKLab" .. style_name
       write(plugin.generate(colors), fname)
     end
   end

@@ -13,7 +13,7 @@ function M.generate(colors)
 
   local alacritty = util.template(
     [[
-# TokyoNight Alacritty Colors
+# ${_style_name} colors for Alacritty
 colors:
   # Default colors
   primary:
@@ -22,17 +22,6 @@ colors:
 
   # Normal colors
   normal:
-    black:   '${black}'
-    red:     '${red}'
-    green:   '${green}'
-    yellow:  '${yellow}'
-    blue:    '${blue}'
-    magenta: '${magenta}'
-    cyan:    '${cyan}'
-    white:   '${fg_dark}'
-
-  # Bright colors
-  bright:
     black:   '${terminal_black}'
     red:     '${red}'
     green:   '${green}'
@@ -40,11 +29,22 @@ colors:
     blue:    '${blue}'
     magenta: '${magenta}'
     cyan:    '${cyan}'
-    white:   '${fg}'
+    white:   '${terminal_white}'
+
+  # Bright colors
+  bright:
+    black:   '${terminal_black_hl}'
+    red:     '${red300}'
+    green:   '${green300}'
+    yellow:  '${yellow300}'
+    blue:    '${blue300}'
+    magenta: '${magenta300}'
+    cyan:    '${cyan300}'
+    white:   '${terminal_white_hl}'
 
   indexed_colors:
     - { index: 16, color: '${orange}' }
-    - { index: 17, color: '${red1}' }
+    - { index: 17, color: '${red}' }
     
   ]],
     alacrittyColors

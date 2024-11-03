@@ -1,0 +1,17 @@
+# Solarized OKLab colors for dunst
+# For more configuraion options see https://github.com/dunst-project/dunst/blob/master/dunstrc
+
+[urgency_low]
+    background = "#0e151f"
+    foreground = "#7b7b7b"
+    frame_color = "#7b7b7b"
+
+[urgency_normal]
+    background = "#0e151f"
+    foreground = "#7b7b7b"
+    frame_color = "#7b7b7b"
+
+[urgency_critical]
+    background = "#19202b"
+    foreground = "#de3b3d"
+    frame_color = "#de3b3d"

@@ -1,0 +1,23 @@
+! Solarized OKLab colors for Xresources
+
+*background: #0e151f
+*foreground: #7b7b7b
+
+*color0: #3d4551
+*color1: #de3b3d
+*color2: #6d8d22
+*color3: #9e7a21
+*color4: #2483d6
+*color5: #c841a4
+*color6: #279382
+*color7: #a09788
+
+*color8: #a09788
+*color9: #f56c66
+*color10: #8eaa57
+*color11: #b99956
+*color12: #5aa3eb
+*color13: #e16ebf
+*color14: #5eafa0
+*color15: #bfb5a6
+ 

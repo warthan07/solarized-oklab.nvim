@@ -7,16 +7,16 @@ function M.generate(colors)
   local xfceterm = util.template(
     [[
 [Scheme]
-Name=TokyoNight Colors
+Name=${_style_name}
 ColorBackground=${bg}
 ColorForeground=${fg}
 
-ColorSelectionBackground=${bg_visual}
-ColorSelection=${fg}
+ColorSelectionBackground=${base02}
+ColorSelection=${base1}
 
-ColorPalette=${black};${red};${green};${yellow};${blue};${magenta};${cyan};${fg_dark};${terminal_black};${red};${green};${yellow};${blue};${magenta};${cyan};${fg}
+ColorPalette=${terminal_black};${red};${green};${yellow};${blue};${magenta};${cyan};${terminal_white};${terminal_black_hl};${red300};${green300};${yellow300};${blue300};${magenta300};${cyan300};${terminal_white_hl}
 ]],
-    colors
+	colors
   )
   return xfceterm
 end
