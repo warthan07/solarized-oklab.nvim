@@ -3,13 +3,13 @@
 
 [urgency_low]
     background = "#0e151f"
-    foreground = "#7b7b7b"
-    frame_color = "#7b7b7b"
+    foreground = "#797b7f"
+    frame_color = "#797b7f"
 
 [urgency_normal]
     background = "#0e151f"
-    foreground = "#7b7b7b"
-    frame_color = "#7b7b7b"
+    foreground = "#797b7f"
+    frame_color = "#797b7f"
 
 [urgency_critical]
     background = "#19202b"

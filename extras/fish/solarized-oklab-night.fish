@@ -1,7 +1,7 @@
     # Solarized OKLab Color Palette
-    set -l foreground 7b7b7b
+    set -l foreground 797b7f
     set -l selection 242c37
-    set -l comment 3d4551
+    set -l comment 424448
     set -l red de3b3d
     set -l orange c06321
     set -l yellow 9e7a21

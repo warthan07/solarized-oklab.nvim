@@ -4,7 +4,7 @@
     "name": "Solarized OKLab",
 
     "background": "#0e151f",
-    "foreground": "#7b7b7b",
+    "foreground": "#797b7f",
 
     "black": "#0b1119",
     "red": "#de3b3d",
@@ -13,7 +13,7 @@
     "blue": "#2483d6",
     "purple": "#c841a4",
     "cyan": "#279382",
-    "white": "#a09788",
+    "white": "#96989d",
 
     "brightBlack": "#242c37",
     "brightRed": "#f56c66",
@@ -22,8 +22,8 @@
     "brightBlue": "#5aa3eb",
     "brightPurple": "${purple300}",
     "brightCyan": "#5eafa0",
-    "brightWhite": "#bfb5a6",
+    "brightWhite": "#b4b7bb",
 
-    "cursorColor": "#7b7b7b",
+    "cursorColor": "#797b7f",
     "selectionBackground": "#242c37",
 }
