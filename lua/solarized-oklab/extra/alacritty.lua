@@ -40,7 +40,7 @@ cyan    = "${cyan300}"
 white   = "${terminal_white_hl}"
 
 [colors]
-indexed-colors = [
+indexed_colors = [
     { index = 16, color = "${orange}" },
     { index = 17, color = "${red}" }]
   ]],

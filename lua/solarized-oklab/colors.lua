@@ -41,8 +41,8 @@ function M.setup(opts)
   colors.hint = colors.cyan500
   colors.todo = colors.violet500
 
-  colors.terminal_black = colors.base01
-  colors.terminal_black_hl = colors.base0
+  colors.terminal_black = colors.black
+  colors.terminal_black_hl = colors.base02
   colors.terminal_white = colors.base0
   colors.terminal_white_hl = colors.base1
 

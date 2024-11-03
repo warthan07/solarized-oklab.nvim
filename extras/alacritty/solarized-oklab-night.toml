@@ -5,7 +5,7 @@ background = "0x0e151f"
 foreground = "0x7b7b7b"
 
 [colors.normal]
-black   = "0x3d4551"
+black   = "0x0b1119"
 red     = "0xde3b3d"
 green   = "0x6d8d22"
 yellow  = "0x9e7a21"
@@ -15,7 +15,7 @@ cyan    = "0x279382"
 white   = "0xa09788"
 
 [colors.bright]
-black   = "0xa09788"
+black   = "0x242c37"
 red     = "0xf56c66"
 green   = "0x8eaa57"
 yellow  = "0xb99956"
@@ -25,7 +25,7 @@ cyan    = "0x5eafa0"
 white   = "0xbfb5a6"
 
 [colors]
-indexed-colors = [
+indexed_colors = [
     { index = 16, color = "0xc06321" },
     { index = 17, color = "0xde3b3d" }]
   
