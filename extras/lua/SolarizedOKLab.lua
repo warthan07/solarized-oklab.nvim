@@ -1243,9 +1243,9 @@ local highlights = {
     bold = true
   },
   MatchParen = {
-    bg = "#c06321",
+    bg = "#0e151f",
     bold = true,
-    fg = "#0b1119"
+    fg = "#de3b3d"
   },
   MiniAnimateCursor = {
     nocombine = true,

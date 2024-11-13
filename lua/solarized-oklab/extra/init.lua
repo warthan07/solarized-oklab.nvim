@@ -15,6 +15,10 @@ M.extras = {
   foot = {ext = "ini", url = "https://codeberg.org/dnkl/foot", label = "Foot"},
   tilix = {ext = "json", url = "https://github.com/gnunn1/tilix", label = "Tilix"},
   iterm = {ext = "itermcolors", url = "https://iterm2.com/", label = "iTerm"},
+  polybar = {ext = "ini", url = "https://github.com/polybar/polybar/wiki/Configuration", label = "Polybar"},
+  haskell = {ext = "hs", url = "https://www.haskell.org/", label = "Colour module for haskell"},
+  plasma = {ext = "colors", url = "https://develop.kde.org/docs/plasma/theme/theme-details/#colors", label = "KDE Plasma"},
+  qt = {ext = "conf", url = "https://github.com/trialuser02/qt6ct", label = "Qt"},
   lua = {ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing"},
   sublime = {ext = "tmTheme", url = "https://www.sublimetext.com/docs/themes", label = "Sublime Text"},
   delta = {ext = "gitconfig", url = "https://github.com/dandavison/delta", label = "Delta"},
@@ -81,7 +85,7 @@ function M.setup()
     for style, style_name in pairs(styles) do
       config.setup({ day = (style=="day") })
       local colors = require("solarized-oklab.colors").setup({ transform = true })
-      local fname = extra .. "/solarized-oklab-" .. style .. "." .. info.ext
+      local fname = extra .. "/SolarizedOKLab" .. style_name:gsub("%s+", " ") .. "." .. info.ext
       colors["_upstream_url"] = "https://github.com/warthan07/solarized-oklab.nvim/raw/main/extras/" .. fname
       colors["_style_name"] = "Solarized OKLab" .. style_name
       write(plugin.generate(colors), fname)
