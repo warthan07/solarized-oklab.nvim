@@ -23,7 +23,7 @@ function M.generate(colors)
 
   return util.template(
 [[
-ColorEffects:Disabled]
+[ColorEffects:Disabled]
 Color=${base03}
 ColorAmount=0
 ColorEffect=0
@@ -128,32 +128,32 @@ ForegroundPositive=${green}
 ForegroundVisited=${violet}
 
 [Colors:Selection]
-BackgroundAlternate=${magenta900}
-BackgroundNormal=${blue900}
+BackgroundAlternate=${magenta}
+BackgroundNormal=${violet}
 DecorationFocus=${violet}
 DecorationHover=${violet}
-ForegroundActive=${base0}
-ForegroundInactive=${base01}
-ForegroundLink=${orange}
-ForegroundNegative=${red}
-ForegroundNeutral=${yellow}
-ForegroundNormal=${base0}
-ForegroundPositive=${green}
-ForegroundVisited=${violet}
+ForegroundActive=${black}
+ForegroundInactive=${base02}
+ForegroundLink=${orange900}
+ForegroundNegative=${red900}
+ForegroundNeutral=${yellow900}
+ForegroundNormal=${black}
+ForegroundPositive=${green900}
+ForegroundVisited=${violet900}
 
 [Colors:Selection][Inactive]
-BackgroundAlternate=${magenta900}
-BackgroundNormal=${blue900}
+BackgroundAlternate=${magenta}
+BackgroundNormal=${violet}
 DecorationFocus=${violet}
 DecorationHover=${violet}
-ForegroundActive=${base0}
+ForegroundActive=${base03}
 ForegroundInactive=${base01}
-ForegroundLink=${orange}
-ForegroundNegative=${red}
-ForegroundNeutral=${yellow}
-ForegroundNormal=${base0}
-ForegroundPositive=${green}
-ForegroundVisited=${violet}
+ForegroundLink=${orange700}
+ForegroundNegative=${red700}
+ForegroundNeutral=${yellow700}
+ForegroundNormal=${base03}
+ForegroundPositive=${green700}
+ForegroundVisited=${violet700}
 
 [Colors:Tooltip]
 BackgroundAlternate=${black}
@@ -187,8 +187,8 @@ ForegroundVisited=${violet}
 BackgroundAlternate=${black}
 BackgroundNormal=${black}
 DecorationFocus=${violet}
-DecorationHover=${violet}
-ForegroundActive=${violet}
+DecorationHover=${violet900}
+ForegroundActive=${black}
 ForegroundInactive=${base01}
 ForegroundLink=${magenta}
 ForegroundNegative=${red}
@@ -201,8 +201,8 @@ ForegroundVisited=${violet}
 BackgroundAlternate=${black}
 BackgroundNormal=${black}
 DecorationFocus=${violet}
-DecorationHover=${violet}
-ForegroundActive=${violet}
+DecorationHover=${violet900}
+ForegroundActive=${black}
 ForegroundInactive=${base01}
 ForegroundLink=${magenta}
 ForegroundNegative=${red}
@@ -216,7 +216,7 @@ BackgroundAlternate=${base04}
 BackgroundNormal=${black}
 DecorationFocus=${violet}
 DecorationHover=${violet}
-ForegroundActive=${violet}
+ForegroundActive=${black}
 ForegroundInactive=${base01}
 ForegroundLink=${magenta}
 ForegroundNegative=${red}
@@ -230,7 +230,7 @@ BackgroundAlternate=${base04}
 BackgroundNormal=${black}
 DecorationFocus=${violet}
 DecorationHover=${violet}
-ForegroundActive=${violet}
+ForegroundActive=${black}
 ForegroundInactive=${base01}
 ForegroundLink=${magenta}
 ForegroundNegative=${red}

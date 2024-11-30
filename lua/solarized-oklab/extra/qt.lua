@@ -17,7 +17,7 @@ function M.generate(colors)
 
   local qt_theme = {
     {"base0",   "base0",   "base01" }, -- Window Text
-    {"base04",  "base04",  "base04" }, -- Button Background
+    {"base03",  "base03",  "base03" }, -- Button Background
     {"base3",   "base3",   "base3"  }, -- Bright
     {"base2",   "base2",   "base2"  }, -- Less Bright
     {"black",   "black",   "black"  }, -- Dark
@@ -27,7 +27,7 @@ function M.generate(colors)
     {"base0",   "base0",   "base01" }, -- Button Text
     {"black",   "black",   "black"  }, -- Normal background
     {"black",   "black",   "black"  }, -- Window
-    {"base02",  "base02",  "base02" }, -- Shadow
+    {"black",   "black",   "black"  }, -- Shadow
     {"violet",  "violet",  "violet" }, -- Highlight
     {"black",   "black",   "base03" }, -- Highlight Text
     {"magenta", "magenta", "magenta"}, -- Link
